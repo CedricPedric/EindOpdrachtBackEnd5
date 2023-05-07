@@ -21,7 +21,7 @@
     
     <div id="container">
         <?php foreach($characters as $character){?>
-        <a class="item" href="character.php">
+        <a class="item" href=character.php?character=<?=$character['id']?>>
             <div class="left">
                 <img class="avatar" src=resources/images/<?=$character['avatar']?> >
             </div>
@@ -39,7 +39,6 @@
         </a>
         <?}?>
     </div>
-
 
     <footer>&copy; [jenaam] 2023</footer>
 </body>
