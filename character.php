@@ -45,7 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         <div style="clear: both"></div>
     </div>
 </div>
-<footer>&copy; [jenaam] 2023</footer>
+<footer>&copy; Cedric Francis <?php echo date("d/m/Y"); ?></footer>
 </body>
 </html>
 

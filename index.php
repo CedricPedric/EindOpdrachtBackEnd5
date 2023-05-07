@@ -40,6 +40,7 @@
         <?}?>
     </div>
 
-    <footer>&copy; [jenaam] 2023</footer>
+    <footer>&copy; Cedric Francis <?php echo date("d/m/Y"); ?></footer>
+        
 </body>
 </html>
